@@ -3,7 +3,7 @@ import requests
 
 
 def get_chatbot_response(message):
-    url = 'http://localhost:5005/webhooks/rest/webhook'
+    url = 'https://e576-2804-14c-65d0-87de-64f0-7a3b-1acf-19db.ngrok-free.app/webhooks/rest/webhook'
     payload = {
         'message': message
     }
